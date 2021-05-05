@@ -58,8 +58,7 @@ br {
     background-color: #bfcba8;
 }
 a {
-    color: #464f41;
-    margin: 20px;    
+    color: #464f41
 }
 .skill-row{
     width: 50%;
@@ -104,3 +103,6 @@ hr {
   text-decoration: none;
 }
 
+.footer-link {
+    margin: 25px;
+}
