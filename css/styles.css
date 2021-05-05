@@ -84,3 +84,22 @@ hr {
     border-width: 5px;
     width: 3%;
 }
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montaga', serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fc3c3c;
+  text-decoration: none;
+}
+
