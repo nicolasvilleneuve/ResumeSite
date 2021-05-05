@@ -107,3 +107,8 @@ hr {
 .footer-link {
     margin: 25px;
 }
+
+a:hover { 
+    background: #fc3c3c;
+  text-decoration: none;
+}
