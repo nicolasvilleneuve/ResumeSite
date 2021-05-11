@@ -39,6 +39,14 @@ h3 {
 .middle-container {
     background-color: #eeeeee;
 }
+.education-container{
+    background-color: #eeeeee;
+}
+
+.experience-container{
+    background-color: #eeeeee;
+}
+
 .bottom-container {
     background-color: #bfcba8;
 }
@@ -54,18 +62,22 @@ h3 {
     left: 300px;
     bottom: 300px;
 }
+
 br {
     background-color: #bfcba8;
 }
+
 a {
     color: #464f41;
     text-decoration: none;
 }
+
 .skill-row{
     width: 50%;
     margin: 50px auto;
     background-color: #eeeeee;
 }
+
 .skill-image-left {
     width: 125px;
     float: left;
@@ -108,7 +120,12 @@ hr {
     margin: 25px;
 }
 
-a:hover { 
+a:hover {
     background: #fc3c3c;
-  text-decoration: none;
+    text-decoration: none;
 }
+
+li {
+    text-align: left;
+}
+
