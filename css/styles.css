@@ -166,4 +166,6 @@ flip card
   transform: rotateY(0deg);
 }
 
-
+.navbar-brand {
+    padding: 3%;
+}
