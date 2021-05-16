@@ -30,6 +30,10 @@ h2 {
 h3 {
     color: #464f41;
 }
+h4 {
+    color: #464f41;
+}
+
 .top-container {
     background-color: #bfcba8;
     padding-top: 100px;
@@ -160,4 +164,5 @@ flip card
 .card-flip:hover .card-back {
   transform: rotateY(0deg);
 }
+
 
