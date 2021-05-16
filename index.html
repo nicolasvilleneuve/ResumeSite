@@ -12,12 +12,10 @@
 
 <body>
 
-
-
-<div class="top_container">
+<div class="top-container">
 
 <nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid">
+  <div class="container-fluid" id="navbar-green">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -56,66 +54,164 @@
     </div>
     <br>
     <hr>
-    <br>
+
     <div class="middle-container">
-        <h2>My Skills</h2>
-        <div class="skill-row">
-            <img class="skill-image-left" src="images/python.png" alt="python">
-            <h3>Python</h3>
-            <p align="right"> I initially learned python to make use of pandas, numpy and matplotlib to generate and harness machine learning models,
-            process, clean, and visualize my metabolomics dataset. Along the way, I decided to devote at least an hour a day to engineering a project, for 100 days straight.
-                As a result, I am extremely comfortable with python and object-oriented programming. </p>
+        <h2 style="text-align: center;">My Skills</h2>
+    <br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <i class="fa fa-search fa-5x float-right"></i>
+                        <img src="images/python.png">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Python</h3>
+                        <p class="card-text">I initially learned python to make use of pandas, numpy and matplotlib to generate and harness machine learning models,
+                        process, clean, and visualize my metabolomics dataset. Along the way, I decided to devote at least an hour a day to engineering a project, for 100 days straight.
+                        As a result, I am extremely comfortable with python and object-oriented programming. </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="skill-row">
-            <img class="skill-image-right" src="images/R_logo.png" alt="">
-            <h3> R </h3>
-            <p align="left"> R is the gold-standard programming language for academia. As such, I have been an avid user of R for 4+ years.
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-warning">
+                    <div class="card-body">
+                        <i class="fa fa-search-plus fa-5x float-right"></i>
+                        <img src="images/R_logo.png" alt="">
+                    </div>
+                </div>
+                <div class="card-back bg-dark text-white">
+                    <div class="card-body">
+                        <h3 class="card-title">R</h3>
+                        <p class="card-text">R is the gold-standard programming language for academia. As such, I have been an avid user of R for 4+ years.
                 My interest in R for statistical analyses, machine learning and data visualization began whilst I was conducting my honours research thesis.
             During the course of my MSc, I have trained and utilized machine learning models varying in complexity (from linear regression, all the way to neural networks) using datasets from Kaggle, ISLR and the UCI ML Repository. </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="skill-row">
-            <img class="skill-image-left" src="images/SQL_logo.png" alt="">
-            <h3> SQL </h3>
-            <p align="right">I enjoy using all kinds of SQL, though postgreSQL is my favourite.
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-primary">
+                    <div class="card-body">
+                        <i class="fa fa-arrow-circle-right fa-5x float-right"></i>
+                        <img src="images/SQL_logo.png" alt="">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body text-primary">
+                        <h3 class="card-title">SQL</h3>
+                        <p class="card-text">I enjoy using all kinds of SQL, though postgreSQL is my favourite.
                 I have been using it for 2 years, completely out of interest in it and a yearning to be able to control/utilize relational database systems which sometimes contain millions of rows.
-                The server for my main website is completely made in python, allowing for data exploration/manipulation to be preformed with Psycopg2 (PostgreSQL module). </p>
+                The server for my main website is completely made in python, allowing for data exploration/manipulation to be preformed with Psycopg2 (PostgreSQL module).</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="skill-row">
-            <img class="skill-image-right" src="images/HTML5_logo.png" alt="">
-            <h3> HTML5 </h3>
-            <p align="left"> I have worked with HTML5 for 1 year and I utilized HTML5 to form the foundation of this and my main website.</p>
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <i class="fa fa-search fa-5x float-right"></i>
+                        <img src="images/HTML5_logo.png" alt="">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h3 class="card-title">HTML5</h3>
+                        <p class="card-text">I have worked with HTML5 for 1 year and I utilized HTML5 to form the foundation of this and my main website.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="skill-row">
-            <img class="skill-image-left" src="images/CSS_logo.png" alt="">
-            <h3> CSS3 </h3>
-            <p align="right"> I have utilized CSS3 for 1 year was utilized to stylize this and my main website </p>
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-danger">
+                    <div class="card-body">
+                        <i class="fa fa-search fa-5x float-right"></i>
+                        <img src="images/CSS_logo.png" alt="">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h3 class="card-title">CSS3</h3>
+                        <p class="card-text">I have utilized CSS3 for 1 year was utilized to stylize this and my main website</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="skill-row">
-            <img class="skill-image-right" src="images/Java_logo.png" alt="">
-            <h3> Java </h3>
-            <p align="left">I have been working with java for 2 years, so as to execute scripts to apply machine learning models to my
-            raw spectral dataset in MZMine, through a unix Biocluster. Additionally, I have utilized it to provide all fo the functionality of my main website. </p>
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-success">
+                    <div class="card-body">
+                        <i class="fa fa-search fa-5x float-right"></i>
+                        <img src="images/Java_logo.png" alt="">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Java</h3>
+                        <p class="card-text">I have been working with java for 2 years, so as to execute scripts to apply machine learning models to my
+            raw spectral dataset in MZMine, through a unix Biocluster. Additionally, I have utilized it to provide all fo the functionality of my main website.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+</div>
+
 <br>
     <hr>
 <br>
     <div class="education-container">
         <h2>Education</h2>
-        <div class="skill-row">
-            <img class="skill-image-left" src="images/uottawa.png" alt="uottawa">
-            <h3> University of Ottawa/d'Université d'Ottawa </h3>
-            <p class="centered"> MSc Student, Master of Chemistry </p>
-            <p class="centered"> Specializing in Metabolomics </p>
-            <p class="centered"> September 2019 - Present </p>
+        <br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <i class="fa fa-search fa-5x float-right"></i>
+                        <img src="images/uottawa.png">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h3 class="card-title">MSc Student, Master of Chemistry</h3>
+                        <p class="card-text">Specializing in Metabolomics </p>
+                        <p class="card-text"> September 2019 - Present </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="skill-row">
-            <img class="skill-image-left" src="images/carleton.png" alt="carleton">
-            <h3> Carleton University </h3>
-            <p align="center"> Honours Bachelors of Science, </p>
-            <p align="center"> Major in Biology, Minor in Chemistry </p>
-            <p align="center"> September 2014 - May 2019 </p>
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <i class="fa fa-search fa-5x float-right"></i>
+                        <img src="images/carleton.png">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Honours Bachelors of Science</h3>
+                        <p class="card-text">Major in Biology, Minor in Chemistry </p>
+                        <p class="card-text"> September 2014 - May 2019 </p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+</div>
 <br>
     <hr>
 <br>
