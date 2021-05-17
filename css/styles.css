@@ -34,6 +34,10 @@ h4 {
     color: #464f41;
 }
 
+h5 {
+    color: #464f41;
+}
+
 .top-container {
     background-color: #bfcba8;
     padding-top: 25px;
@@ -55,17 +59,10 @@ h4 {
     background-color: #bfcba8;
 }
 
-.bottom-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
+.profile-pic{
+    padding: 0 0 2rem 0;
 }
 
-.top-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-}
 
 br {
     background-color: #bfcba8;
@@ -154,8 +151,22 @@ flip card
   transform: rotateY(0deg);
 }
 
+.navbar{
+    padding: 0 6rem;
+}
+
 .navbar-brand {
     padding: 3%;
     font-size: 2.5rem;
     font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 4px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montaga', serif;
+
 }
