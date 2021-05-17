@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2, h3, h4, h5, h6 {
    font-family: 'Montaga', serif;
+   text-align: center;
 }
 
 h2{
@@ -99,7 +100,6 @@ a:hover {
     background: #fc3c3c;
     text-decoration: none;
 }
-
 
 /* flip card */
 .card-flip > div {
