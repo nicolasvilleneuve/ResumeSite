@@ -12,7 +12,7 @@ body {
 
 h1 {
     font-size: 5.625rem;
-    margin: 50px auto 0 auto;
+    margin: auto auto 0 auto;
     color: #464f41;
     font-family: 'Permanent Marker', cursive;
 }
@@ -25,7 +25,7 @@ p {
 h2 {
    color: #464f41;
    font-family: 'Montaga', serif;
-   font-size: 1.3rem;
+   font-size: 1.75rem;
 }
 h3 {
     color: #464f41;
@@ -36,7 +36,7 @@ h4 {
 
 .top-container {
     background-color: #bfcba8;
-    padding-top: 100px;
+    padding-top: 25px;
     position: relative;
 }
 
@@ -103,18 +103,6 @@ hr {
     width: 3%;
 }
 
-.btn {
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: 'Montaga', serif;
-  color: #ffffff;
-  font-size: 20px;
-  background: #000000;
-  padding: 10px 20px 10px 20px;
-  border: solid #000000 2px;
-  text-decoration: none;
-}
 
 .btn:hover {
   background: #fc3c3c;
@@ -168,4 +156,6 @@ flip card
 
 .navbar-brand {
     padding: 3%;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
